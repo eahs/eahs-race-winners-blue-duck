@@ -27,7 +27,7 @@ namespace RaceWinners
             groups.Add(new Group
             {
                 Name = "Class C",
-                Ranks = new List<int> {}  // etc
+                Ranks = new List<int> {1, 3, 14, 18, 19, 23, 28, 30, 32, 41, 44, 47, 50, 56, 60, 63, 64, 68, 73, 74}  // etc
             });
 
             return groups;
