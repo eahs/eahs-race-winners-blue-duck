@@ -19,6 +19,16 @@ namespace RaceWinners
                 Name = "Class A",
                 Ranks = new List<int> {4, 9, 11, 12}  // etc
             });
+            groups.Add(new Group
+            {
+                Name = "Class B",
+                Ranks = new List<int> {}  // etc
+            });
+            groups.Add(new Group
+            {
+                Name = "Class C",
+                Ranks = new List<int> {}  // etc
+            });
 
             return groups;
         }
