@@ -29,7 +29,11 @@ namespace RaceWinners
                 Name = "Class C",
                 Ranks = new List<int> {1, 3, 14, 18, 19, 23, 28, 30, 32, 41, 44, 47, 50, 56, 60, 63, 64, 68, 73, 74}  // etc
             });
-
+            groups.Add(new Group
+            {
+                Name = "Class D",
+                Ranks = new List<int> { 2, 5, 8, 15, 17, 31, 33, 36, 37, 38, 46, 51, 55, 57, 58, 59, 67 }  // etc
+            });
             return groups;
         }
     }
