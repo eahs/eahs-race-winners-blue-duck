@@ -17,12 +17,12 @@ namespace RaceWinners
             groups.Add(new Group
             {
                 Name = "Class A",
-                Ranks = new List<int> {4, 9, 11, 12}  // etc
+                Ranks = new List<int> {4, 9, 11, 12, 20, 21, 25, 26, 29, 35, 43, 45, 49, 54, 61, 65, 69, 70, 71}  // etc
             });
             groups.Add(new Group
             {
                 Name = "Class B",
-                Ranks = new List<int> {}  // etc
+                Ranks = new List<int> {6, 7, 10, 13, 16, 22, 24, 27, 34, 39, 40, 42, 48, 52, 53, 62, 66, 72}  // etc
             });
             groups.Add(new Group
             {
