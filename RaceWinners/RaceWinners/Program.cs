@@ -37,7 +37,6 @@ namespace RaceWinners
             }
 
             Array.Sort(avg);
-            Array.Reverse(avg);
 
             for (int i = 0; i < avg.Length; i++)
             {
